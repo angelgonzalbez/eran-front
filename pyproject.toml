@@ -1,6 +1,6 @@
 [project]
 name = "eran-front"
-version = "0.1.0"
+version = "0.1.1"
 description = "Common frontend templates for ERAN Fitness"
 readme = "README.md"
 dependencies = []
