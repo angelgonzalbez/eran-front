@@ -1,0 +1,29 @@
+[project]
+name = "eran-front"
+version = "0.1.0"
+description = "Common frontend templates for ERAN Fitness"
+readme = "README.md"
+dependencies = []
+requires-python = ">=3.13,<4.0"
+
+[dependency-groups]
+prod = [
+    "jinja2>=3.1,<4.0"
+]
+
+[tool.uv]
+default-groups = ["prod"]
+package = true
+
+[tool.uv.pip]
+python-version = "3.13"
+
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "function"
+env = [
+    "ENVIRONMENT=local",
+]
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"

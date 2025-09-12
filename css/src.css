@@ -1,0 +1,73 @@
+
+/* Clases personalizadas para modo oscuro */
+.dark .dark\:bg-gray-800 {
+  background-color: rgb(31 41 55);
+}
+
+.dark .dark\:bg-gray-900 {
+  background-color: rgb(17 24 39);
+}
+
+.dark .dark\:text-white {
+  color: rgb(255 255 255);
+}
+
+.dark .dark\:text-gray-400 {
+  color: rgb(156 163 175);
+}
+
+.dark .dark\:text-gray-200 {
+  color: rgb(229 231 235);
+}
+
+.dark .dark\:text-gray-300 {
+  color: rgb(209 213 219);
+}
+
+.dark .dark\:hover\:bg-gray-700:hover {
+  background-color: rgb(55 65 81);
+}
+
+.dark .dark\:hover\:bg-gray-600:hover {
+  background-color: rgb(75 85 99);
+}
+
+.dark .dark\:hover\:text-white:hover {
+  color: rgb(255 255 255);
+}
+
+.dark .dark\:border-gray-600 {
+  border-color: rgb(75 85 99);
+}
+
+.dark .dark\:border-gray-700 {
+  border-color: rgb(55 65 81);
+}
+
+.dark .dark\:divide-gray-600 > :not([hidden]) ~ :not([hidden]) {
+  border-color: rgb(75 85 99);
+}
+
+.dark .dark\:bg-gray-700 {
+  background-color: rgb(55 65 81);
+}
+
+.dark .dark\:focus\:ring-gray-700:focus {
+  --tw-ring-color: rgb(55 65 81);
+}
+
+.dark .dark\:focus\:ring-gray-600:focus {
+  --tw-ring-color: rgb(75 85 99);
+}
+
+.dark .dark\:bg-blue-900 {
+  background-color: rgb(30 58 138);
+}
+
+.dark .dark\:text-blue-300 {
+  color: rgb(147 197 253);
+}
+
+.dark .dark\:group-hover\:text-white {
+  color: rgb(255 255 255);
+}
