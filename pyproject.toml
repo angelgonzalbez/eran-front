@@ -16,7 +16,7 @@ default-groups = ["prod"]
 package = true
 
 [tool.uv.build-backend]
-module-name = "front"
+module-name = "eran_front"
 module-root = ""
 
 [tool.uv.pip]
