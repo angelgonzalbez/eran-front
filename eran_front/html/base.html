@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERAN Fitness - {% block title %}{% endblock %}</title>
-    <link href="/front/css/src.css" rel="stylesheet"/>
-    <link rel="icon" href="/front/img/logo-icono.png">
-    <script src="/front/js/flowbite.min.js"></script>
+    <link href="/eran-front/css/src.css" rel="stylesheet"/>
+    <link rel="icon" href="/eran-front/img/logo-icono.png">
+    <script src="/eran-front/js/flowbite.min.js"></script>
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
         if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -15,7 +15,7 @@
             document.documentElement.classList.remove('dark')
         }
     </script>
-    <link href="/front/css/flowbite.css" rel="stylesheet"/>
+    <link href="/eran-front/css/flowbite.css" rel="stylesheet"/>
 </head>
 <body>
 <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar"
@@ -32,6 +32,6 @@
 {% include "partials/header.html" %}
 {% include "partials/footer.html" %}
 
-<script src="/front/js/darkmode.js"></script>
+<script src="/eran-front/js/darkmode.js"></script>
 </body>
 </html>
